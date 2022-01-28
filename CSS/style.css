@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body
 {
@@ -34,6 +31,12 @@ a
 
 }
 
+a:hover
+{
+    border-bottom: 4px solid rgba(22, 23, 219, 1);
+    font-weight: bold;
+}
+
 
 .ButtonHeader
 {
@@ -53,4 +56,49 @@ a
 {
     position: absolute;
     width: 1600px;
+}
+
+
+.p1
+{
+    font-family: Poppins;
+    color: rgba(22, 23, 219, 1);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    margin-left: 230px;
+    width: 165px;
+    border: 1px solid black;
+    
+}
+
+h1
+{
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 67px;
+    line-height: 120%;
+    color: #01010D; 
+    width: 453px;
+    margin-left: 230px;
+    border: 1px solid black;
+}
+
+.p2
+{
+    font-family: Poppins;
+    margin-left: 230px;
+    width: 456px;
+    border: 1px solid black;
+}
+}
+
+.ButtonMain
+{
+    border: 1px solid rgba(22, 23, 219, 0.2);
+    border-radius: 6px;
+    background: none;
+    width: 153px;
 }
