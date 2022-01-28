@@ -88,7 +88,7 @@ section
 .Section2
 {
     display: flex;
-
+    margin-top: 40px;
 }
 
 .p1
